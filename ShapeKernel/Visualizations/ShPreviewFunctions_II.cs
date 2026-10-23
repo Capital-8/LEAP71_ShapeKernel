@@ -356,7 +356,7 @@ namespace Leap71
                 {
                     uint nSamples           = 500;
                     float fRadiusRatio      = 1f;
-                    float fPhiRatio         = 1f / (nRadialSamples - 1f) * nRadialSample;
+                    float fPhiRatio         = 1f / (float)nRadialSamples * nRadialSample;
                     List<Vector3> aPoints   = new List<Vector3>();
                     for (uint i = 0; i < nSamples; i++)
                     {
